@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 
 .side {
   width: 100%;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   height: 100%;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(255, 254, 254);
 }
 .css {
   display: flex;
@@ -41,8 +41,27 @@
 
 .para1 {
   width: 50%;
+  color: grey;  
 }
 
-.REV{
-    flex-direction: row-reverse;
+.para2 {
+  width: 50%;
+  font-size: 20px;
+  color: grey;
+}
+
+.h2 {
+  width: 400px;
+  height: 128px;
+  size: 25px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 88px;
+  letter-spacing: -1px;
+}
+
+.REV {
+  flex-direction: row-reverse;
 }
