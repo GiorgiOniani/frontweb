@@ -1,50 +1,120 @@
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
+.mtlianad{
+    height: 5489px;
+    width: 1440px;
+    gap: 68px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: red;
+    position: relative;
+
 }
 
-body {
-  font-family: montserrat;
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 598px;
+    left: 0px;
+    top: 2871px;
+    background-color: bisque;
+
 }
 
-nav {
-  background-color: grey;
-  height: 70px;
-  width: 100%;
+.cbanner{
+    height: 296px;
+    width: 900px;
+    left: 261px;
+    top: 2484px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: rgb(34, 15, 0);
+
 }
 
-label.logo {
-  color: black;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 129px;
+    gap: 220px;
+    background-color: rgb(167, 107, 107);
+    position: absolute;
+    width: 1438px;
+    height: 1574.2px;
+    left: 2px;
+    top: 732px;
 }
 
-nav ul {
-  float: right;
-  margin-right: 20px;
+.pgogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 96px;
+    background-color: blue;
+
+    position: absolute;
+    width: 1180px;
+    height: 559px;
+    left: 130px;
+    top: 126px;
 }
 
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 263px;
+    background-color: black;
+
+    position: absolute;
+    width: 1280px;
+    height: 51px;
+    left: 80px;
+    top: 0px;
 }
 
-nav ul li a {
-  color: rgb(0, 0, 0);
-  font-size: 17px;
-  padding: 7px;
-  border-radius: 3px;
-  text-transform: uppercase;
+.footercontent{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 165px;
+
+    position: absolute;
+    width: 900px;
+    height: 212.55px;
+    left: 270px;
+    top: 3115.54px;
+    background-color: blueviolet;
 }
 
-a.active,
-a:hover {
-  background: rgb(164, 232, 218);
-  transition: 0.5s;
+.column1{
+    background-color: black;
+    width: 97px;
+    height: 206px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.column2{
+    width: 101px;
+    height: 206px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: black;
+}
+.column3{
+    width: 87px;
+    height: 104px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    background-color: black;
 }
